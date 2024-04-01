@@ -18,6 +18,9 @@
   kbd {
     color: #121212;
   }
+  table, th, td {
+  border:1px solid black;
+}
 </style>
 <title>Wind Tunnel Flow Simulator </title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -50,12 +53,8 @@
 
 <h2 align="middle">Overview</h2>
 <p>
-  <ul>
-    <li>Descriptive Title: Wind Tunnel Heat Map Simulator</li>
-    <li>Summary: The Wind Tunnel Heat Map Simulator will utilize a 3D environment with simulated air particle collisions to generate a heat map over the surface of different objects. We will use the Navier-Stokes equations  to model the air flow through the tunnel. Objects inside the tunnel and the wind-tunnel walls themselves will act as obstacles for the flow.
-    </li>
-    <li>Team Members: Eugene Kang, Shawn Lim, Chin Zong Han, Angeline Lee</li>
-  </ul>
+	The Wind Tunnel Heat Map Simulator will utilize a 3D environment with simulated air particle collisions to generate a heat map over the surface of different objects. 
+	We will use the Navier-Stokes equations  to model the air flow through the tunnel. Objects inside the tunnel and the wind-tunnel walls themselves will act as obstacles for the flow.
 </p>
 <br>
 
@@ -84,15 +83,52 @@
 <br>
 
 <h2 align="middle">Schedule</h2>
-
+<table style="width:100%">
+  <tr>
+    <th>Week</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>Week of Apr 1</td>
+    <td>Set up object render and wind tunnel environment</td>
+  </tr>
+  <tr>
+    <td>Week of Apr 8</td>
+    <td>Implement actual wind particles without collisions (Navier-Stokes equations)</td>
+  </tr>
+  <tr>
+    <td>Week of Apr 15</td>
+    <td>Implement wind particle collisions with object and force changes in vector of said particles </td>
+  </tr>
+  <tr>
+    <td>Week of Apr 22</td>
+    <td>Implement color rendering of wind particles based on velocity and collisions </td>
+  </tr>
+</table>
+ 
 <p>
-
+  We will work on additional goals in spare time
 </p>
 <br>
 
 <h2 align="middle">Resources</h2>
 
 <p>
+
+  <ul>Software: We will be using the simple GUI and CGL interface from project 4 (clothsim) as our baseline starting point.</ul>
+<ul>Hardware: Personal computers</ul>
+<ul>
+  Online Resources
+  <ul>
+    Navier-Stokes Simulation: 
+    <ul><a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19880008200.pdf">https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19880008200.pdf</a></ul>
+    <ul><a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations</a></ul>
+  </ul>
+  <ul>
+    Fluid Flow Visualization:
+    <ul><a href="https://www.semanticscholar.org/paper/Fluid-Flow-Visualization-Post-Walsum/de2eca7f712001aee868c65f41baf75a947215c7?p2df">https://www.semanticscholar.org/paper/Fluid-Flow-Visualization-Post-Walsum/de2eca7f712001aee868c65f41baf75a947215c7?p2df</a></ul>
+  </ul>
+</ul>
 
 </p>
 
