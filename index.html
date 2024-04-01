@@ -60,9 +60,18 @@
 
 
 <h2 align="middle">Problem Description</h2>
-
 <p>
-
+  <ul>
+    <li>We are trying to simulate the operations of a wind tunnel and developing different techniques to visualize the air flow within the tunnel as it interacts with obstacle objects.</li>
+    <li>A potential challenge will be generating different heatmaps to represent not only wind velocity but also air pressure, drag and lift on different regions of the objects. We will have to capture additional data on the behavior of the particles based on the navier-stokes.</li>
+    <ul>
+      <li>To solve this problem we will have to create new particle classes to contain these meta data and perform navier-stokes operations on.</li>
+    </ul>
+    <li>We will need to achieve real time simulation of the wind particles going at high speeds and interacting with the target object.</li>
+    <ul>
+      <li>To solve this we will approximate as close as possible to accurate real time simulation using the Reynolds-averaged Navier–Stokes
+    </ul>
+  </ul>
 </p>
 <br>
 
@@ -105,6 +114,21 @@
 <h2 align="middle">Resources</h2>
 
 <p>
+
+  <ul>Software: We will be using the simple GUI and CGL interface from project 4 (clothsim) as our baseline starting point.</ul>
+<ul>Hardware: Personal computers</ul>
+<ul>
+  Online Resources
+  <ul>
+    Navier-Stokes Simulation: 
+    <ul><a href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19880008200.pdf">https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19880008200.pdf</a></ul>
+    <ul><a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations</a></ul>
+  </ul>
+  <ul>
+    Fluid Flow Visualization:
+    <ul><a href="https://www.semanticscholar.org/paper/Fluid-Flow-Visualization-Post-Walsum/de2eca7f712001aee868c65f41baf75a947215c7?p2df">https://www.semanticscholar.org/paper/Fluid-Flow-Visualization-Post-Walsum/de2eca7f712001aee868c65f41baf75a947215c7?p2df</a></ul>
+  </ul>
+</ul>
 
 </p>
 
